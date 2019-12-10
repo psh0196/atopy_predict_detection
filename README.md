@@ -7,6 +7,7 @@
 * 최종 목표 : 논문 작성 -> 휴대폰 카메라로 일부 피부 사진을 촬영하면 아토피 위치를 정확히 알려주는 어플리케이션 개발
 * 문제점 : 데이터 부족 (개인 동의, 인력 등)
 * 보안문제로 인해 데이터는 제공할 수 없음
+* 슈퍼컴퓨터를 이용하여 multi-gpu 사용
 
 1. data preprocessing : atopy-1, skin-0, background-2
 2. Model : vgg, resnet (framework : keras)
