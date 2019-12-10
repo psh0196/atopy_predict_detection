@@ -9,7 +9,7 @@
 
 1. Model : vgg, resnet
 2. object detection : yolo algorism
-    - 대부분 CNN은 Channel을 계속 줄여나가다가 flatten을 수행한다. 하지만 flatten을 수행하지 않고 1x1x1 tensor만을 남긴고, training을 진행
+    - 대부분 CNN은 Channel을 계속 줄여나가다가 flatten을 수행한다. 하지만 flatten을 수행하지 않고 1x1x1 tensor만을 남기고, training을 진행
     - tensor가 아토피라는 결론이라면 원래의 이미지에서 최종 tensor의 위치를 수학적으로 계산하여 그 크기만큼 표시 해 준다.
 
 
